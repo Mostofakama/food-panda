@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    font-family: 'Tilt Neon', cursive;
+}
+
+/* common */
+.btn {
+    color: #fff;
+    padding: 11px 30px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fb974b, #fe4b2f);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #fab681, #f8644d);
+    box-shadow: 1px 11px 9px 9xp #f8644d;
+}
+
+
+/* header1 */
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #ff6347;
+
+}
+
+.header-area {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-area {
+    width: 20%;
+    padding-top: 10px;
+
+}
+
+.logo-area img {
+    width: 100%;
+}
+
+.menu-area ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-area ul li {
+    padding-right: 19px;
+    margin-top: 10px;
+
+}
+
+.menu-area ul li a {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 19px;
+}
+
+/* header2 */
+
+
+.header2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header2-area {
+    width: 90%;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.images {
+    width: 40%;
+}
+
+.images img {
+    width: 80%;
+
+}
+
+.text-area {
+    width: 60%;
+}
+
+.text-area h2 span {
+    color: #ff6347;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.text-area h2 {
+    color: #000;
+    font-size: 39px;
+    font-weight: 800;
+    width: 100%;
+}
+
+
+.text-area p {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 14px;
+}
+
+/* header3 */
+
+
+.header3 {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/7.png);
+
+}
+
+.header3-area {
+    padding: 40px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.images2 {
+    width: 50%;
+}
+
+.images2 img {
+    width: 70%;
+
+}
+
+.text2-area {
+    width: 50%;
+}
+
+.text2-area h2 span {
+    color: #ff6347;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.text2-area h2 {
+    color: #000;
+    font-size: 39px;
+    font-weight: 800;
+    width: 100%;
+    margin: 6px;
+}
+
+
+.text2-area p {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* resipices */
+.section-recipies {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-recipies p {
+    font-size: 20px;
+    color: #575757;
+}
+
+.recipies-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recipies {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 11px 3px #000;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.image3 {
+    width: 100%;
+
+}
+
+.image3 img {
+    width: 100%;
+
+}
+
+.text3 h2 {
+    font-size: 30px;
+    color: #575757;
+    margin: 4px;
+}
+
+.text3 p {
+    font-size: 18px;
+    color: #746f6f;
+    margin: 4px;
+}
+
+
+
+
+.fit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 11px 3px #000;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.box2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text5 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 13px;
+    text-align: center;
+    align-items: center;
+}
+
+.text5 h2 {
+    margin: 3px;
+
+}
+
+/* map-input */
+.contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact {}
+
+.section-contact h2 {
+    color: #676767;
+    font-size: 43px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.section-contact p {
+    color: #575757;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.from-area input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 15px 0px;
+}
+
+.from-area label {
+    width: 100%;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.from-area textarea {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 15px 0px;
+    padding: 30px 0px;
+}
+
+.from {
+    width: 90%;
+    border: none;
+}
+
+.map {
+    width: 43%;
+    padding-right: 19px;
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.from-area {
+    width: 45%;
+}
+
+/*footer area styel */
+.footer-area {
+    text-align: center;
+    background-color: #000;
+    margin-top: 40px;
+
+}
+
+.footer-area h2 {
+    text-align: center;
+    color: #5b5b5b;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.footer-area span {
+    text-align: center;
+    color: #ff6347;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.footer-area p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.footer-area a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+
+
+
+
+/* resposive */
+@media (max-width:850px) {
+    .text-area {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .header2 {
+        padding: 60px 0px;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .text2-area {
+        width: 100%;
+    }
+
+    .images2 {
+        width: 100%;
+    }
+
+    .header3 {
+        margin-bottom: 50px;
+    }
+
+    .header3-area {
+        display: block;
+
+    }
+
+    .box {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .recipies {
+        flex-direction: column;
+    }
+
+    .box2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-area {
+        flex-direction: column;
+    }
+
+    .map {
+        width: 90%;
+        padding-right: 0px;
+    }
+
+    .from-area {
+        width: 90%;
+    }
+}
